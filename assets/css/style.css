@@ -1,11 +1,20 @@
+/* fonts link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+
 /*---------------
  utlites style 
  ---------------------- */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -22,4 +31,48 @@ img {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* ------------------
+common style 
+--------------------*/
+.btn {
+}
+.btn--box {
+}
+
+/* -----------------------
+header-section start 
+------------------------*/
+.header-section {
+}
+.header {
+}
+.header__logo {
+}
+.header__logo a {
+}
+.header__menu {
+}
+.header__menu ul {
+}
+.header__menu ul li {
+}
+.header__menu ul li a:hover {
+}
+
+/* ----------------------
+banner-section start
+------------------------*/
+.banner-section {
+}
+.banner {
+}
+.banner__content {
+}
+.banner__content h1 {
+}
+.banner__content p {
+}
+.banner__img {
 }
