@@ -39,6 +39,10 @@ common style
 .btn {
 }
 .btn--box {
+  background-color: #e02c6d;
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: white;
 }
 
 /* -----------------------
@@ -47,16 +51,25 @@ header-section start
 .header-section {
 }
 .header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .header__logo {
 }
 .header__logo a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
 }
 .header__menu {
 }
 .header__menu ul {
+  display: flex;
 }
 .header__menu ul li {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
 }
 .header__menu ul li a:hover {
 }
@@ -67,12 +80,23 @@ banner-section start
 .banner-section {
 }
 .banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  height: 100vh;
 }
 .banner__content {
 }
 .banner__content h1 {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 70px;
 }
 .banner__content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 16px 0;
 }
 .banner__img {
 }
