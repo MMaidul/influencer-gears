@@ -1,0 +1,51 @@
+/* --------------------
+Media Queries
+----------------------------- */
+@media only screen and (max-width: 688px) {
+  .header-section {
+    display: none;
+  }
+
+  .banner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner__content {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .banner__content {
+    order: 1;
+  }
+  .banner__content h1 {
+    font-size: 32px;
+  }
+  .banner__content p {
+    padding-bottom: 20px;
+  }
+
+  .banner__img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .brand-section {
+    padding-top: 70px;
+  }
+  .brand {
+    grid-template-columns: repeat(4, auto);
+  }
+  .product {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-section {
+  }
+}
+
+/* -------------------------
+Tablet Devices 
+----------------------------*/
+
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+  .product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
