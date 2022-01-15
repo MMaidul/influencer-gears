@@ -2,8 +2,14 @@
 Media Queries
 ----------------------------- */
 @media only screen and (max-width: 688px) {
-  .header-section {
+  .header__logo a {
+    font-size: 15px;
+  }
+  .header__menu {
     display: none;
+  }
+  .banner-section {
+    padding-top: 120px;
   }
 
   .banner {
