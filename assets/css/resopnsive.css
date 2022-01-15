@@ -36,6 +36,9 @@ Media Queries
   .product {
     grid-template-columns: repeat(1, 1fr);
   }
+  .new-arrival {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .footer-section {
   }
 }
@@ -47,5 +50,8 @@ Tablet Devices
 @media only screen and (min-width: 668px) and (max-width: 992px) {
   .product {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .new-arrival {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

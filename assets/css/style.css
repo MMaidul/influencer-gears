@@ -113,8 +113,15 @@ banner-section start
   margin: 16px 0;
 }
 .banner__img {
-  background-size: 450px;
+  background-size: 420px;
+  margin-left: 50px;
+  align-content: right;
   background-repeat: no-repeat;
+  transform: scale(1);
+  transition: 1s;
+}
+.banner:hover .banner__img {
+  transform: scale(1.1);
 }
 
 /*-------------------------
@@ -178,6 +185,39 @@ product-section start
 .product__btn {
   text-align: right;
   margin-top: 15px;
+}
+/* ------------------------------
+new-arrival-section start 
+-------------------------------*/
+.new-arrival-section {
+  margin-top: 50px;
+}
+.new-arrival {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.new-arrival__single {
+  border-radius: 5px;
+  padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+.new-arrival__single-content {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+.new-arrival__single-content ul {
+  display: flex;
+  font-size: 14px;
+}
+.new-arrival__single-content li {
+  margin-left: 5px;
+}
+.new-arrival__single-img {
+  width: 120%;
+  margin-left: -40px;
 }
 
 /* -----------------
